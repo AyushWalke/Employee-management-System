@@ -1,6 +1,6 @@
 @import "tailwindcss";
 *{
-  font-family: gilroy;
+  color: #fff;
 }
 
 html, body {
@@ -11,4 +11,8 @@ html, body {
 body {
   color: #fff;
   background-color: #111;
+}
+
+#tasklist::-webkit-scrollbar{
+  display: none;
 }
