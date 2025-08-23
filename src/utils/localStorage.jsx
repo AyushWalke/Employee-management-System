@@ -1,8 +1,15 @@
 const employees = [
   {
     id: 1,
+    firstName: "Aarav",
     email: "employee1@example.com",
     password: "123",
+    taskSummary: {
+      active: 2,
+      newTask: 1,
+      completed: 1,
+      failed: 0
+    },
     tasks: [
       {
         title: "Build Landing Page",
@@ -38,8 +45,15 @@ const employees = [
   },
   {
     id: 2,
+    firstName: "Vihaan",
     email: "employee2@example.com",
     password: "123",
+    taskSummary: {
+      active: 2,
+      newTask: 1,
+      completed: 1,
+      failed: 1
+    },
     tasks: [
       {
         title: "Create REST API for User Module",
@@ -85,8 +99,15 @@ const employees = [
   },
   {
     id: 3,
+    firstName: "Ishaan",
     email: "employee3@example.com",
     password: "123",
+    taskSummary: {
+      active: 2,
+      newTask: 1,
+      completed: 1,
+      failed: 1
+    },
     tasks: [
       {
         title: "Refactor CSS to SCSS",
@@ -132,8 +153,15 @@ const employees = [
   },
   {
     id: 4,
+    firstName: "Kavya",
     email: "employee4@example.com",
     password: "123",
+    taskSummary: {
+      active: 2,
+      newTask: 2,
+      completed: 2,
+      failed: 0
+    },
     tasks: [
       {
         title: "Webpack Configuration",
@@ -189,8 +217,15 @@ const employees = [
   },
   {
     id: 5,
+    firstName: "Riya",
     email: "employee5@example.com",
     password: "123",
+    taskSummary: {
+      active: 2,
+      newTask: 1,
+      completed: 1,
+      failed: 0
+    },
     tasks: [
       {
         title: "Deploy to Vercel",
